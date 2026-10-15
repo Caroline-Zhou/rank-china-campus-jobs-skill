@@ -1,0 +1,7 @@
+interface:
+  display_name: "中国秋招岗位决策"
+  short_description: "从公司官网抓取秋招岗位并生成在线决策表"
+  default_prompt: "使用 $rank-china-campus-jobs 分析这个公司的官方招聘网站，核验当前开放岗位并给出在线决策表。"
+
+policy:
+  allow_implicit_invocation: true
